@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color:white; 
+}
+
+/* Mengatur Navbar */
+.navbar {
+    background-color: #2a3d66;
+    padding: 10px 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Mengatur Link pada Navbar */
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px; /* Jarak antar item navbar */
+    align-items: center;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    font-weight: 400;
+    color: white;
+    transition: 0.3s ease;
+    padding-bottom: 3px; /* Menghapus garis bawah */
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-links a:hover {
+    color: aqua;
+    border-bottom-color: aqua; 
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 23px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.logo span {
+    text-shadow: 0 0 25px gray;
+    color: rgb(62, 233, 233);
+}
+
+.logo span {
+    text-shadow: 0 0 25px gray;
+    color: rgb(62, 233, 233);
+}
+
+.logout-btn {
+    background-color: rgb(48, 180, 180);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 550;
+    transition: background-color 0.3s ease;
+    margin-left: 20px; 
+    text-decoration: none; 
+}
+
+.logout-btn:hover {
+    background-color: rgb(71, 106, 106);
+}
+
+.home {
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    background-color: white;
+}
+
+.welcome1 {
+    padding-top: 10%;
+    font-size: 50px;
+    text-shadow: 0 0 25px gray;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.welcome2 {
+    font-size: 50px;
+    color:  black;
+    text-shadow: 0 0 25px  gray;
+    transition: 0.3s ease;
+}
+
+.home h1:hover{
+    transform: scale(1.1);
+}
+
+.scroll {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.scroll:hover {
+    text-decoration: none;
+    color: #2a3d66;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 30px;
+    padding: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 100%;
+    background-color: transparent;
+    margin-left: 50px;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+.box h3 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.form-input {
+    width: 250%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+
