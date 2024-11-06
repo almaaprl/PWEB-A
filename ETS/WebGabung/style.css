@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #2a3d66;
+    font-family: "Poppins", sans-serif;
+}
+
+.input {
+    position: fixed;
+    top: 50%;
+    left: 43%;
+    transform: translate(-30%, -50%);
+    background-color: rgba(215, 213, 213, 0.436);
+    padding: 50px;
+    width: 280px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.input:hover {
+    box-shadow: 0 0 25px white,
+                0 0 25px rgba(215, 213, 213, 0.436);
+}
+
+.input h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 0;
+    margin-top: -20px;
+}
+
+.box-input {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    border-bottom: 2px solid white;
+    width: 90%;
+    padding: 8px 0;
+    margin-left: 13px;
+}
+
+.box-input i {
+    font-size: 20px;
+    color: white;
+    padding: 1px 0;
+}
+
+.box-input input {
+    width: 85%;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+
+.box-input input::placeholder {
+    color: white;
+}
+
+.btn-input .box-input input:hover {
+    background: rgba(10, 10, 10, s 0.5);
+}
+
+.btn-input {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: #2a3d66;
+    border: none;
+    width: 92.5%;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    transition: all .2s;
+    border-radius: 10px;
+}
+
+.btn-input:hover {
+    background: #151e31;
+    border: none;
+}
+
+.bottom {
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -20px;
+}
+
+.bottom p {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bottom a {
+    color: #25365a;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+    color: #84f9ff;
+}
